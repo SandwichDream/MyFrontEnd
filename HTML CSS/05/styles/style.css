@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #242527;
+    padding: 40px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    width: 100%;
+}
+header div.left{
+    font-family: 'Mynerve', cursive;
+    color: #E4F5FF;
+    float: left;
+}
+header div.left h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+}
+header div.left h1 img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 143px;
+    bottom: 7px;
+}
+.undertitle{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+header ul.right{
+    margin-top: 20px;
+    font-family: 'Labrada', serif;
+    font-size: 20px;
+    float: right;
+}
+li{
+    display: inline;
+}
+header ul li:not(:last-of-type) span{
+    padding-right: 30px;
+    background-image: url("../images/Vector1.png");
+    background-repeat: no-repeat;
+}
+header ul.right a{
+    padding-right: 5px;
+    color: #FBFCFF;
+    text-decoration: none;
+    background-color: #242527;
+}
+header ul.right a:hover{
+    color: #FBFCFF;
+    text-decoration: underline;
+}
+header button{
+    color: #E4F5FF;
+    background-color: transparent;
+    border: 1px solid #E4F5FF;
+    padding: 15px 30px;
+    margin-left: 90px;
+}
+header button:hover{
+    color: #E4F5FF;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid #E4F5FF;
+    padding: 15px 30px;
+    margin-left: 90px;
+}
+section{
+    font-family: 'Roboto', sans-serif;
+    color: #E4F5FF;
+    margin: 0 auto;
+    font-size: 20px;
+}
+section div.left{
+    margin-top: 280px;
+    float: left;
+}
+section div.left div span {
+    width: 714px;
+    background-image: url("../images/Vector1.png");
+    background-size: 46px;
+    padding-right: 236px;
+    background-repeat: repeat-x;
+}
+section div.left div h1{
+    background-color: #242527;
+}
+section div.right{
+    float: right;
+}
+nav{
+    font-family: 'Labrada', serif;
+    color: #E4F5FF;
+    width: 1200px;
+    margin: 50px auto;
+}
+nav a{
+    color: #E4F5FF;
+    text-decoration: none;
+    margin: 0 20px;
+}
+nav ul li:not(:first-of-type)::before{
+    content: "//";
+}
+nav a:hover{
+    color: #E4F5FF;
+    text-decoration: underline;
+    margin: 0 20px;
+}
+.persons{
+    width: 1380px;
+    margin: 0 auto;
+}
+.persons h1{
+    color: #E4F5FF;
+    font-family: 'Labrada', serif;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.blackboard{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 211px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 0 0 16px 16px;
+    position: relative;
+    top: 194px;
+    left: 1px;
+    padding: 5px 10px;
+}
+pre{
+    font-family: 'Roboto', sans-serif;
+    color: #E4F5FF;
+    font-size: 14px;
+}
+.all{
+    filter: grayscale(100%);
+    width: 240px;
+    height: 310px;
+    float: left;
+    margin: 0 15px;
+}
+.person1{
+    background-image: url("../images/persons/Rectangle\ 1.png");
+}
+.person2{
+    background-image: url("../images/persons/Rectangle\ 2.png");
+}
+.person3{
+    background-image: url("../images/persons/Rectangle\ 3.png");
+}
+.person4{
+    background-image: url("../images/persons/Rectangle\ 4.png");
+}
+.person5{
+    background-image: url("../images/persons/Rectangle\ 5.png");
+}
+.person6{
+    background-image: url("../images/persons/Rectangle\ 6.png");
+}
+.person7{
+    background-image: url("../images/persons/Rectangle\ 7.png");
+}
+.person8{
+    background-image: url("../images/persons/Rectangle\ 8.png");
+}
+.person9{
+    background-image: url("../images/persons/Rectangle\ 9.png");
+}
+.person10{
+    background-image: url("../images/persons/Rectangle\ 10.png");
+}
+.person11{
+    background-image: url("../images/persons/Rectangle\ 11.png");
+}
+.person12{
+    background-image: url("../images/persons/Rectangle\ 12.png");
+}
+.person13{
+    background-image: url("../images/persons/Rectangle\ 13.png");
+}
+.person14{
+    background-image: url("../images/persons/Rectangle\ 14.png");
+}
+.person15{
+    background-image: url("../images/persons/Rectangle\ 15.png");
+}
